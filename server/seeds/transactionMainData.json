@@ -1,0 +1,18 @@
+[
+  {
+    "customer_id": "6695d318bceae14c18f185e9",
+    "total": 168.97,
+    "ordered": true
+  },
+  {
+    "customer_id": "6695d318bceae14c18f185e9",
+    "total": 12.99,
+    "ordered": false
+  },
+  {
+    "customer_id": "6695d318bceae14c18f185e9",
+    "total": 79.99,
+    "ordered": false
+  }
+]
+  

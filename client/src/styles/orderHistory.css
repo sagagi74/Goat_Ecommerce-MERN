@@ -1,0 +1,8 @@
+.clickableRow td{
+    cursor: pointer;
+
+}
+
+.clickableRow:hover td {
+    background-color: rgb(216, 216, 216);
+}

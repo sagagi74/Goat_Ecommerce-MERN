@@ -1,0 +1,67 @@
+{
+  "name": "team-goat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "dev": "vite",
+    "start": "node server/server.js",
+    "seed": "node server/seeds/seed.js",
+    "client": "cd client && vite",
+    "develop": "concurrently \"npm run start\" \"npm run client\"",
+    "render-build": "npm install && npm run build",
+    "build": "cd client && vite build && npm run seed",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/client": "^3.10.8",
+    "@apollo/server": "^4.10.4",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^4.0.0",
+    "apollo-server-express": "^3.13.0",
+    "bcrypt": "^5.0.0",
+    "bootstrap": "^5.3.3",
+    "concurrently": "^5.1.0",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.11",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "graphql": "^16.9.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "mongoose": "^5.11.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.24.1",
+    "react-scripts": "5.0.1",
+    "vite": "^4.4.5",
+    "vitest": "^1.6.0",
+    "web-vitals": "^2.1.4"
+  }
+}
